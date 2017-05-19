@@ -54,7 +54,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.richTextBoxInverseUnionCovariazionnaya = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxСoefficients = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInputData1)).BeginInit();
@@ -302,13 +302,13 @@
             this.label12.TabIndex = 26;
             this.label12.Text = "Коэффициенты дискриминантной функции";
             // 
-            // richTextBox1
+            // richTextBoxСoefficients
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(745, 359);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(577, 110);
-            this.richTextBox1.TabIndex = 25;
-            this.richTextBox1.Text = "";
+            this.richTextBoxСoefficients.Location = new System.Drawing.Point(745, 359);
+            this.richTextBoxСoefficients.Name = "richTextBoxСoefficients";
+            this.richTextBoxСoefficients.Size = new System.Drawing.Size(577, 110);
+            this.richTextBoxСoefficients.TabIndex = 25;
+            this.richTextBoxСoefficients.Text = "";
             // 
             // Form1
             // 
@@ -316,7 +316,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1512, 645);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBoxСoefficients);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.richTextBoxInverseUnionCovariazionnaya);
             this.Controls.Add(this.label10);
@@ -373,7 +373,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.RichTextBox richTextBoxInverseUnionCovariazionnaya;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxСoefficients;
     }
 }
 
